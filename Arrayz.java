@@ -1,17 +1,17 @@
-public class Arrayz {
-    
+/*public class Arrayz {
+
     // TODO: Schreibe hier die Methoden für die Teilaufgaben.
-    
+
     public static void main(String[] args){
-        
-        // Test-Code für Teilaufgabe e)
-        System.out.println("Aufgabe e)");
-        System.out.println(hours(3));
-        System.out.println(hours(75));
+
+        // Test-Code für Teilaufgabe (e)
+        // System.out.println("Aufgabe e)");
+        // System.out.println(hours(3));
+        // System.out.println(hours(75));
         // TODO: Schreibe mehr Testcode
         System.out.println();
 
-        // Test-Code für Teilaufgabe f)
+        // Test-Code für Teilaufgabe (f)
         System.out.println("Aufgabe f)");
         int[][] magicSquare = new int[][] { { 12, 6, 15, 1 },
                 { 13, 3, 10, 8 },
@@ -28,3 +28,4 @@ public class Arrayz {
         System.out.println();
     }
 }
+*/

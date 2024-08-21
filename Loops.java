@@ -1,4 +1,4 @@
-public class Loops {
+/*public class Loops {
     
     // TODO: Schreibe hier die Methoden für die Teilaufgaben.
     
@@ -19,3 +19,4 @@ public class Loops {
         System.out.println();
     }
 }
+*/
