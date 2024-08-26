@@ -1,5 +1,5 @@
 public class Methoden {
-    public static String hours(int seconds){
+    static String hours(int seconds){
         int hours = seconds / 3600;
         int minutes = (seconds % 3600) / 60;
         seconds = seconds % 60;
@@ -8,7 +8,7 @@ public class Methoden {
         return hours + ":" + Str_minutes + ":" + Str_seconds;
     }
 
-    public static double distance(int[] a, int[] b){
+    static double distance(int[] a, int[] b){
         return Math.sqrt(Math.pow(b[1] - a[1], 2) + Math.pow(b[0] - a[0], 2));
     }
     

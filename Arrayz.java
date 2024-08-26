@@ -1,16 +1,31 @@
-/*public class Arrayz {
+import java.util.Arrays;
+import java.util.SequencedSet;
 
-    // TODO: Schreibe hier die Methoden für die Teilaufgaben.
+public class Arrayz {
+    static double[] sort(double[] arrayToSort){
+        while (true){
+            boolean sortedOnce = false;
+            for (int index = 0; index < arrayToSort.length - 1; index++){
+                if (arrayToSort[index] > arrayToSort[index + 1]){
+                    double itemToChange = arrayToSort[index];
+                    arrayToSort[index] = arrayToSort[index + 1];
+                    arrayToSort[index + 1] = itemToChange;
+                    sortedOnce = true;
+                }
+            }
+            if (!sortedOnce){
+                return arrayToSort;
+            }
+        }
+    }
 
-    public static void main(String[] args){
-
-        // Test-Code für Teilaufgabe (e)
-        // System.out.println("Aufgabe e)");
-        // System.out.println(hours(3));
-        // System.out.println(hours(75));
+    public static void main(String[] args) {
         // TODO: Schreibe mehr Testcode
         System.out.println();
-
+        double[] array1 = {1.2, 321.3, 432.2, 2.3, 2, 5, 3, 4, 6, 2, 3};
+        double[] sorted_array1 = sort(array1);
+        System.out.println(Arrays.toString(sorted_array1));
+        /*
         // Test-Code für Teilaufgabe (f)
         System.out.println("Aufgabe f)");
         int[][] magicSquare = new int[][] { { 12, 6, 15, 1 },
@@ -26,6 +41,6 @@
         };
         System.out.println(isMagicSquare(nonMagicSquare));
         System.out.println();
+        */
     }
 }
-*/
