@@ -1,7 +1,7 @@
 /*
  * Bemerkung: Eine Funktion ist eine Methode/ ein Befehl mit einem Rückgabewert.
  */
-
+/*
 public class Calculations {
     
     // Funktionen wie in der Mathematik
@@ -44,4 +44,4 @@ public class Calculations {
         double c = betrag(square(-20));
         System.out.println(c);
     }
-}
+}*/
